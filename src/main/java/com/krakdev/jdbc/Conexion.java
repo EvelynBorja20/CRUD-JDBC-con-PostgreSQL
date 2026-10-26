@@ -11,8 +11,8 @@ public class Conexion {
     private static final Logger logger = LoggerFactory.getLogger(Conexion.class);
 
     private static final String URL = "jdbc:postgresql://localhost:5432/tallerjdbc";
-    private static final String USER = "tu_usuario";     // HOMECAR
-    private static final String PASS = "tu_contrasena"; // 1234567
+    private static final String USER = "postgres";     
+    private static final String PASS = "0708"; 
     public static Connection conectar() {
         Connection connection = null;
         try {
